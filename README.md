@@ -1,4 +1,4 @@
-# Greatfet-Erica
+# GreatFET-Erica
 A yet non-offical neighbor for the GreatFET One targeting the 433/868/915MHz bands
 # Name
 The plant erica reminds me a bit to antennas. And that is what Erica shall be about. A neighbor with 4 antennas.
