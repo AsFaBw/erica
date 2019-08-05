@@ -9,4 +9,8 @@ THE PURPOSE OF THIS NEIGHBOR IS NOT TO BE A TOOL FOR CRIMINALS!
 # PoC
 A first version is under development that is build with pre-build, low cost CC1101 transceivers. 
 ![Alt text](GreatFETEricaPoCV0_1.png?raw=true "GreatFET Erica PoC V0.1")
+# Concept
+The 4 CC1101 shall be accessible via SPI interface
+To be a friendly neighbor, the SPI shall be selected via I2C (similar to GF-Crocus)
 
+![Alt text](SPIFriendlyNeighbor.jpg?raw=true "SPI select via I2C")
