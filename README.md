@@ -8,5 +8,5 @@ Primary purpose of this neighbor is to provide a possibility to do security rese
 THE PURPOSE OF THIS NEIGHBOR IS NOT TO BE A TOOL FOR CRIMINALS!
 # PoC
 A first version is under development that is build with pre-build, low cost CC1101 transceivers. 
-
+![Alt text](GreatFETEricaPoCV0_1.png?raw=true "GreatFET Erica PoC V0.1")
 
