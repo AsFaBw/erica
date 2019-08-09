@@ -12,12 +12,14 @@ THE PURPOSE OF THIS NEIGHBOR IS NOT TO BE A TOOL FOR CRIMINALS!
 # PoC
 A first version is under development that is build with pre-build, low cost CC1101 transceivers. 
 ![Alt text](GreatFETEricaPoCV0_1.png?raw=true "GreatFET Erica PoC V0.1")
+# Improved version
+An improved version shall be build without pre-build CC1101 modules - following the TI refernce designs (http://www.ti.com/tool/CC1101EM868-915_REFDES / http://www.ti.com/tool/CC1101EM433_REFDES).
 # Concept
 The 4 CC1101 shall be accessible via SPI interface
 To be a friendly neighbor, the SPI shall be selected via I2C (similar to GF-Crocus)
 
 ![Alt text](SPIFriendlyNeighbor.jpg?raw=true "SPI select via I2C")
 # Status
-Layouted and ordered a pcb... ...waiting for production and components... 
+PoC: Layouted and ordered a pcb... ...waiting for production and components... ...PCB is produced and goes to shipment... 
 # GreatFET
 You don't know GreatFET One yet? Have a look to: https://greatscottgadgets.com/greatfet/
