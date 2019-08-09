@@ -14,6 +14,8 @@ A first version is under development that is build with pre-build, low cost CC11
 ![Alt text](GreatFETEricaPoCV0_1.png?raw=true "GreatFET Erica PoC V0.1")
 # Improved version
 An improved version shall be build without pre-build CC1101 modules - following the TI refernce designs (http://www.ti.com/tool/CC1101EM868-915_REFDES / http://www.ti.com/tool/CC1101EM433_REFDES).
+The improved version shall have external antennas to match to frequencies.
+![Alt text](ImprovedVersion.png?raw=true "GreatFET Erica Improved Version")
 # Concept
 The 4 CC1101 shall be accessible via SPI interface
 To be a friendly neighbor, the SPI shall be selected via I2C (similar to GF-Crocus)
