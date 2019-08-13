@@ -23,6 +23,9 @@ To be a friendly neighbor, the SPI shall be selected via I2C (similar to GF-Croc
 
 ![Alt text](SPIFriendlyNeighbor.jpg?raw=true "SPI select via I2C")
 # Status
-PoC: Layouted and ordered a pcb... ...waiting for production and components... ...PCB is produced and goes to shipment... 
+PoC: PCB arrived...
+![Alt text](PoC/PoCPCB.PNG?raw=true "GreatFET Erica PoC V0.1 PCB")
+![Alt text](PoC/PoCPCB1.PNG?raw=true "GreatFET Erica PoC V0.1 PCB stacked")
+...waiting for components... 
 # GreatFET
 You don't know GreatFET One yet? Have a look to: https://greatscottgadgets.com/greatfet/
