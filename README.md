@@ -17,6 +17,7 @@ An improved version shall be build without pre-build CC1101 modules - following 
 The improved version shall have external antennas to match to frequencies.
 ![Alt text](ImprovedVersion/ImprovedVersion.png?raw=true "GreatFET Erica Improved Version")
 ![Alt text](ImprovedVersion/EarlySchematic.png?raw=true "GreatFET early schematic")
+![Alt text](ImprovedVersion/Improved3D.png?raw=true "GreatFET early 3D board")
 # Concept
 The 4 CC1101 shall be accessible via SPI interface
 To be a friendly neighbor, the SPI shall be selected via I2C (similar to GF-Crocus)
