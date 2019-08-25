@@ -1,5 +1,5 @@
 # GreatFET-Erica
-A yet non-offical neighbor for the GreatFET One targeting the 315/433/868/915MHz bands
+A neighbor for the GreatFET One targeting the 315/433/868/915MHz bands. This neighbour is not a design from GreatScottGadgets. So if it does not work, don't blame GSG but me.
 # Name
 The arms of the plant erica remind me a bit to antennas. And that is what Erica shall be about. A neighbor with 4 antennas.
 # Purpose
@@ -11,13 +11,13 @@ This can be useful for analyzing issues in systems that do require but do not ca
 THE PURPOSE OF THIS NEIGHBOR IS NOT TO BE A TOOL FOR CRIMINALS!
 # PoC
 A first version is under development that is build with pre-build, low cost CC1101 transceivers. 
-![Alt text](PoC/GreatFETEricaPoCV0_1.png?raw=true "GreatFET Erica PoC V0.1")
+![Alt text](PoC/GreatFETEricaPoCV0_1.png?raw=true "Erica PoC V0.1")
 # Improved version
 An improved version shall be build without pre-build CC1101 modules - following the TI refernce designs (http://www.ti.com/tool/CC1101EM868-915_REFDES / http://www.ti.com/tool/CC1101EM433_REFDES).
 The improved version shall have external antennas to match to frequencies.
-![Alt text](ImprovedVersion/ImprovedVersion.png?raw=true "GreatFET Erica Improved Version")
-![Alt text](ImprovedVersion/EarlySchematic.png?raw=true "GreatFET early schematic")
-![Alt text](ImprovedVersion/Improved3D.png?raw=true "GreatFET early 3D schematic")
+![Alt text](ImprovedVersion/ImprovedVersion.png?raw=true "Erica Improved Version")
+![Alt text](ImprovedVersion/EarlySchematic.png?raw=true "early schematic")
+![Alt text](ImprovedVersion/Improved3D.png?raw=true "early 3D schematic")
 # Concept
 The 4 CC1101 shall be accessible via SPI interface
 To be a friendly neighbor, the SPI shall be selected via I2C (similar to GF-Crocus)
@@ -25,8 +25,13 @@ To be a friendly neighbor, the SPI shall be selected via I2C (similar to GF-Croc
 ![Alt text](SPIFriendlyNeighbor.jpg?raw=true "SPI select via I2C")
 # Status
 PoC: PCB arrived...
-![Alt text](PoC/PoCPCB.PNG?raw=true "GreatFET Erica PoC V0.1 PCB")
-![Alt text](PoC/PoCPCB1.PNG?raw=true "GreatFET Erica PoC V0.1 PCB stacked")
-...waiting for components... 
+![Alt text](PoC/PoCPCB.PNG?raw=true "Erica PoC V0.1 PCB")
+![Alt text](PoC/PoCPCB1.PNG?raw=true "Erica PoC V0.1 PCB stacked")
+...components arrived and partly assembled. Unfortunately used wrong footprint for the PCF8574A. Further I ordered a chinese copy that is hearing on 0x20 instead of 0x38 (although the A version is described to hear on 0x38)
+![Alt text](PoC/PoCPartlyAssembled.JPG?raw=true "Erica PoC V0.1 PCB stacked")
+...basic access to CC1101 SPI interface (controlled by I2C select) working. Especially gating the SPI select with the 1G32 OR gate:
+![Alt text](PoC/PoCBurstSingleSPI.png?raw=true "Erica PoC V0.1 PCB stacked")
+![Alt text](PoC/PoCFirstAccessI2CSPI.png?raw=true "Erica PoC V0.1 PCB stacked")
+
 # GreatFET
 You don't know GreatFET One yet? Have a look to: https://greatscottgadgets.com/greatfet/
