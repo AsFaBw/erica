@@ -26,13 +26,12 @@ To be a friendly neighbor, the SPI shall be selected via I2C (similar to GF-Croc
 # Status
 PoC: PCB arrived...
 ![Alt text](PoC/PoCPCB.PNG?raw=true "Erica PoC V0.1 PCB")
-![Alt text](PoC/PoCPCB1.PNG?raw=true "Erica PoC V0.1 PCB stacked")
 ...components arrived and partly assembled. Unfortunately used wrong footprint for the PCF8574A. Further I ordered a chinese copy that is hearing on 0x20 instead of 0x38 (although the A version is described to hear on 0x38)
 ![Alt text](PoC/PoCPartlyAssembled.JPG?raw=true "Erica PoC V0.1 PCB stacked")
 ...basic access to CC1101 SPI interface (controlled by I2C select) working. Especially gating the SPI select with the 1G32 OR gate:
 ![Alt text](PoC/PoCBurstSingleSPI.png?raw=true "Erica PoC V0.1 PCB stacked")
 While the 868MHz modules can be accessed as expected, the 433MHz module's SPI interface does not respond. Investigated and found that the pinout is different than the one I had used for schematic design:-) There are similar looking 433MHz modules on the market, that have slightly different pin assignments. Used the one for pcb design and ordered the other.
-Anyhow, the 868MHz modules operation gave me enough confidence to order the "improved" version. Anyhow it might be intersting to repair the PoC pcb (design V0.2), as it is possible to assemble such a board for ~20Euros.
+Anyhow, the 868MHz modules operation gave me enough confidence to order the "improved" version. It might be intersting to repair the PoC pcb (design V0.2), as it is possible to assemble such a board for ~20Euros.
 ![Alt text](PoC/PoCFirstAccessI2CSPI.png?raw=true "Erica PoC V0.1 PCB stacked")
 
 # GreatFET
