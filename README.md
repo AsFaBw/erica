@@ -35,8 +35,8 @@ Anyhow, the 868MHz modules operation gave me enough confidence to order the "imp
 ![Alt text](PoC/PoCFirstAccessI2CSPI.png?raw=true "Erica PoC V0.1 PCB stacked")
 Two assembled boards of the improved version arrived and first tests have been done. Unfortunately one board has a shortcut between MOSI and SCLK. The other board seems to have a missing connection on one of the CC1101s, such that the SPI MOSI line reads only "1"s. Assumption is that the used footprint for the CC1101 is non-optimal (at least it is different from the CC1101 datasheet recommendation). 
 ![Alt text](ImprovedVersion/EricaV0.2.JPG?raw=true "assembled PCB")
-Anyhow, 3 out of the 4 CC1101 modules are working. A first test was done to configure the CC1101 for the ABUS Secvest burglury alarm system. Receiving packets from a FUBE50014 remote control is reliable working.
-![Alt text](ImprovedVersion/ABUSFube50014.png?raw=true "assembled PCB")  
+Anyhow, 3 out of the 4 CC1101 modules are working. A first test was done to configure the CC1101 for the ABUS Secvest burglary alarm system. Receiving packets from a FUBE50014 remote control is reliable working.
+![Alt text](ImprovedVersion/ABUSFube50014Receive.png?raw=true "assembled PCB")  
 
 # GreatFET
 You don't know GreatFET One yet? Have a look to: https://greatscottgadgets.com/greatfet/
