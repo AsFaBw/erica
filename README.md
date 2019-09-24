@@ -1,4 +1,4 @@
-# GreatFET-Erica
+# Erica
 A neighbor for the GreatFET One targeting the 315/433/868/915MHz bands. This neighbour is not a design from GreatScottGadgets. So if it does not work, don't blame GSG but me.
 # Name
 The arms of the plant erica remind me a bit to antennas. And that is what Erica shall be about. A neighbor with 4 antennas.
@@ -32,7 +32,9 @@ PoC: PCB arrived...
 ![Alt text](PoC/PoCBurstSingleSPI.png?raw=true "Erica PoC V0.1 PCB stacked")
 While the 868MHz modules can be accessed as expected, the 433MHz module's SPI interface does not respond. Investigated and found that the pinout is different than the one I had used for schematic design:-) There are similar looking 433MHz modules on the market, that have slightly different pin assignments. Used the one for pcb design and ordered the other.
 Anyhow, the 868MHz modules operation gave me enough confidence to order the "improved" version. It might be intersting to repair the PoC pcb (design V0.2), as it is possible to assemble such a board for ~20Euros.
+
 ![Alt text](PoC/PoCFirstAccessI2CSPI.png?raw=true "Erica PoC V0.1 PCB stacked")
+
 Two assembled boards of the improved version arrived and first tests have been done. Unfortunately one board has a shortcut between MOSI and SCLK. The other board seems to have a missing connection on one of the CC1101s, such that the SPI MOSI line reads only "1"s. Assumption is that the used footprint for the CC1101 is non-optimal (at least it is different from the CC1101 datasheet recommendation). 
 ![Alt text](ImprovedVersion/EricaV0.2.JPG?raw=true "assembled PCB")
 Anyhow, 3 out of the 4 CC1101 modules are working. A first test was done to configure the CC1101 for the ABUS Secvest burglary alarm system. Receiving packets from a FUBE50014 remote control is reliable working.
