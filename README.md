@@ -39,6 +39,9 @@ Two assembled boards of the improved version arrived and first tests have been d
 ![Alt text](ImprovedVersion/EricaV0.2.JPG?raw=true "assembled PCB")
 Anyhow, 3 out of the 4 CC1101 modules are working. A first test was done to configure the CC1101 for the ABUS Secvest burglary alarm system. Receiving packets from a FUBE50014 remote control is reliable working.
 ![Alt text](ImprovedVersion/ABUSFube50014Receive.png?raw=true "assembled PCB")  
-
+After some time with no time for playing around, another PoC arrived. It was assembled and tested. All 4 RF modules are working as expected.
+![Alt text](PoC/V03.PNG?raw=true "Erica PoC V0.3 PCB")
+Prepared another PoC that uses solder jumpers instead of normal jumpers and has part references added. Ordered PCB.
+![Alt text](PoC/V04PCB.PNG?raw=true "Erica PoC V0.4 PCB") 
 # GreatFET
 You don't know GreatFET One yet? Have a look to: https://greatscottgadgets.com/greatfet/
