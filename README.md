@@ -42,6 +42,9 @@ Anyhow, 3 out of the 4 CC1101 modules are working. A first test was done to conf
 After some time with no time for playing around, another PoC arrived. It was assembled and tested. All 4 RF modules are working as expected.
 ![Alt text](PoC/V03.PNG?raw=true "Erica PoC V0.3 PCB")
 Prepared another PoC that uses solder jumpers instead of normal jumpers and has part references added. Ordered PCB.
-![Alt text](PoC/V04PCB.png?raw=true "Erica PoC V0.4 PCB") 
+![Alt text](PoC/V04PCB.png?raw=true "Erica PoC V0.4 PCB")
+PoC V0.4 arrived and first tests look to be promising to be a release candidate.
+![Alt text](PoC/V04.png?raw=true "Erica PoC V0.4")
+
 # GreatFET
 You don't know GreatFET One yet? Have a look to: https://greatscottgadgets.com/greatfet/
