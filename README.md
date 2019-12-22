@@ -47,5 +47,7 @@ PoC V0.4 arrived and first tests look to be promising to be a release candidate.
 ![Alt text](PoC/V04.png?raw=true "Erica PoC V0.4")
 To see the latency between switching from one CC1101 module to the other, a reactive jamming attack was implemented against a remote control from an ABUS Secvest burglary alarm system. One module was configured to report the RSSI level on the frequency the alarm system is operating. Upon detection of activity, a second CC1101 module is fired with a short radio packet. It is visible, that the reactive jamming attack packet overlays the remote control packet.
 ![Alt text](PoC/PoCReactiveJamming.png?raw=true "Reacitve Jamming Attack with PoCV0.4")
+Another full-custom design was made, that has 4 layers, a corrected CC1101 footprint, denser RF placements.
+![Alt text](ImprovedVersion/V05PCB.png?raw=true "Full custom PCB")
 # GreatFET
 You don't know GreatFET One yet? Have a look to: https://greatscottgadgets.com/greatfet/
