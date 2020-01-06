@@ -49,5 +49,7 @@ To see the latency between switching from one CC1101 module to the other, a reac
 ![Alt text](PoC/PoCReactiveJamming.png?raw=true "Reacitve Jamming Attack with PoCV0.4")
 Another full-custom design was made, that has 4 layers, a corrected CC1101 footprint, denser RF placements.
 ![Alt text](ImprovedVersion/V05PCB.png?raw=true "Full custom PCB")
+The assembled PCBs arrived and all 4 CC1101 are accessible via SPI interface. Receiving and sending tested on one of the interfaces.
+![Alt text](ImprovedVersion/EricaV05.jpg?raw=true "Full custom Erica")
 # GreatFET
 You don't know GreatFET One yet? Have a look to: https://greatscottgadgets.com/greatfet/
