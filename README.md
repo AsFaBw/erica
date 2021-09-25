@@ -54,7 +54,7 @@ The assembled PCBs arrived and all 4 CC1101 are accessible via SPI interface. Re
 # GreatFET
 You don't know GreatFET One yet? Have a look to: https://greatscottgadgets.com/greatfet/
 
-#Kicad files
+# Kicad files
 As there have been some requests, I upload the Kicad files from ~2 years ago. Configuration mangement was weak that time, but I think that are the latest files resulting in the order.
 THEREFORE, USE AT YOUR OWN RISK! NO WARRANTY THAT THOSE ARE THE LATEST REVISIONS
 You need to download kicad libraries from gsg and digikey (pathes are given in the Readme.txt files within the zip file).
